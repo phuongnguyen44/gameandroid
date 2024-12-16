@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chedo3x3cuachoivoimay">
+
+    <GridLayout
+        android:id="@+id/table2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="58dp"
+        android:background="#000000"
+        android:columnCount="3"
+        android:padding="16dp"
+        android:rowCount="3"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/button00"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="0"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button01"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="1"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button02"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="2"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="3"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="4"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="5"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button20"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="6"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button21"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="7"
+            android:onClick="dropin"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button22"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:tag="8"
+            android:onClick="dropin"
+            android:text="" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/hienthiketqua2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="179dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnreplay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="160dp"
+        android:onClick="reset"
+        android:text="Play again"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hienthiketqua2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

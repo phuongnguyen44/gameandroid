@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chedo5x5cuachoivoimay">
+
+
+    <GridLayout
+        android:id="@+id/table4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerInParent="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="95dp"
+        android:background="#000000"
+        android:columnCount="5"
+        android:padding="16dp"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/sebutton00"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="0"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton01"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="1"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton02"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="2"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton03"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="3"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton04"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="4"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton05"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="5"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton06"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="6"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton07"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="7"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton08"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="8"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton09"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="9"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="10"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="11"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton12"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="12"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="13"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton14"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="14"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton15"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="15"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton16"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="16"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton17"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="17"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton18"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="18"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton19"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="19"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton20"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="20"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton21"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="21"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton22"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="22"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton23"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="23"
+            android:onClick="dropin"/>
+
+        <ImageView
+            android:id="@+id/sebutton24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:text=""
+            android:tag="24"
+            android:onClick="dropin"/>
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/hienthi4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="177dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playagain4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="158dp"
+        android:onClick="reset"
+        android:text="Play again"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
